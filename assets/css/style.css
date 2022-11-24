@@ -1,0 +1,131 @@
+html{
+    min-height: 100%;
+    position: relative;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo', sans-serif;
+}
+.encabezado{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 25px;
+    background-color: blue;
+    display: flex;
+    justify-content:center ;
+} 
+.contenedor-elementos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#images{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#images img{
+
+    width: 150px;   
+}
+#micuenta.contenedor-elementos{
+    display: flex;
+    justify-content:flex-start
+}
+#tablapedidos{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+   
+}
+.contenedor-form{
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-botones button{
+    width: 90px;
+    height: 35px;
+}
+#nuevopedido.contenedor-elementos{
+    display: flex;
+    justify-content:flex-start
+}
+.formulario{
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+}
+select{
+    width: 250px;
+}
+
+
+#site-pedidos.contenedor-elementos{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
+.tablapedidos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto;
+}
+.tablapedidos table{
+    text-align: left;
+}
+.tablapedidos td{
+    margin: 20px;
+}
+.carrito{
+    width: 200px;
+    margin: 20px auto;
+    background-color: rgb(228, 228, 228);
+    border: solid 2px ;
+
+}
+table{
+    border: 1px solid gray;
+}
+td{
+    text-align: left;
+    border: 1px solid gray;
+    padding: 5px;
+
+}
+.tablapagos{
+    width: 467px;
+    margin: 27px auto;
+    border: solid 2px ;
+    border-color: black;
+    padding: 5px;
+    
+  
+}
+#nuevopedido.contenedor-elementos{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
+.categoria-pedidos{
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    background-color: cornflowerblue;
+    margin: 25px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
