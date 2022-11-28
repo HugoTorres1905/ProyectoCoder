@@ -129,3 +129,20 @@ td{
     align-items: center;
     gap: 20px;
 }
+.form-control{
+    width: 400px;
+    height: auto;
+    
+    
+}
+.botones{
+    margin-top: 10px;
+    padding: 10px;
+}
+.botones :nth-child(1):hover{
+    transform: scale(1.2);
+    
+}
+.botones :nth-child(2):hover{
+    transform: scale(1.2);
+}
