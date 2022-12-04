@@ -158,3 +158,8 @@ td{
 .botones :nth-child(2):hover{
     transform: scale(1.2);
 }
+a .navlink :hover{
+    transform: scale(1.5);
+    
+
+}
