@@ -118,8 +118,16 @@ td{
 }
 .categoria-pedidos{
     display: flex;
+    justify-content: center;
     flex-direction: row;
     margin: 20px auto;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 50px auto;
+    
 }
 .footer{
     position: absolute;
