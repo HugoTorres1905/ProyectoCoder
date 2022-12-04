@@ -158,8 +158,14 @@ td{
 .botones :nth-child(2):hover{
     transform: scale(1.2);
 }
-a .navlink :hover{
-    transform: scale(1.5);
-    
+.nav-link{
+    text-decoration: none;
 
+}
+.tablapedidos{
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 300px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-areas: none;
 }
