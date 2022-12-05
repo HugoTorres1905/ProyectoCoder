@@ -25,6 +25,9 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
+.navbar-brand img{
+    width: 135px;
+}
 #images{
     display: flex;
     flex-direction: column;
@@ -158,10 +161,7 @@ td{
 .botones :nth-child(2):hover{
     transform: scale(1.2);
 }
-.nav-link{
-    text-decoration: none;
 
-}
 .tablapedidos{
     margin: 40px;
     display: grid;
