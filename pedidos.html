@@ -24,7 +24,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Bienvenido</a>
+              <a class="nav-link" aria-current="page" href="#">Bienvenido</a>
               <a class="nav-link" href="/index.html">Inicio</a>
               <a class="nav-link" href="/mi-cuenta.html">Mi cuenta</a>
               <a class="nav-link" href="/pedidos.html">Pedidos</a>
@@ -35,9 +35,11 @@
         </div>
       </nav>
     </div>
-    <main>
+    <main class="mainPedidos">
       <div class="tablapedidos">
-        <table >  
+        <h3>Aquí podras encontrar tus últimos pedidos</h3>
+
+           <table >  
              <tr>
                <td>29 Septiembre 2022</td>   
                <td><a href="#">Ver pedido</a></td>   
@@ -75,12 +77,32 @@
                <td>19 Abril 2022</td>   
                <td><a href="#">Ver pedido</a></td>   
              </tr>
+             <tr>
                <td>01 Abril 2022</td>   
                <td><a href="#">Ver pedido</a></td>   
              </tr>
+
            </table>
+           <section class="paginacion">
+            <ul>
+              <li><a href="pagina1.html" class="active">1</a></li>
+              <!-- <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="pagina4.html">4</a></li>
+              <li><a href="pagina5.html">5</a></li> -->
+            </ul>
+          </section>
        </div>
-    </main>
+    <aside>
+      <div class="contenedorDestacados">
+        <h3>Destacados</h3>
+        <img src="./assets/img/mouse op.jpg" alt="">
+        <img src="./assets/img/parlante op.jpg" alt="">
+        <img src="./assets/img/airpods op.jpg" alt="">
+        
+      </div>
+    </aside>
+      </main>
     
     <footer class="footer">
 
