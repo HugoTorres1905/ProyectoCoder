@@ -1,0 +1,15 @@
+.tablapagos{
+    width: 467px;
+    margin: 27px auto;
+    border: solid 2px ;
+    border-color: black;
+    padding: 5px;
+    }
+    @media screen and (max-width:768px){
+        .tablapagos{
+            width: 350px;
+            border: solid 1px;
+            padding: 2px;
+        }
+
+    }

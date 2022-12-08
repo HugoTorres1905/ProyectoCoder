@@ -1,0 +1,33 @@
+#tablapedidos{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+   
+}
+.tablapedidos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto;
+}
+.tablapedidos table{
+    text-align: left;
+}
+.tablapedidos td{
+    margin: 20px;
+}
+.tablapedidos{
+    margin: 0 40px;
+    display: grid;
+    grid-template-columns: 555px;
+    grid-template-rows: 65px;
+}
+.tablapedidos td{
+    border: 1px solid lightgrey;
+    padding: 15px;
+}
+@media screen and (max-width:768px){
+    .tablapedidos{
+       grid-template-columns: 300px;
+    }
+}

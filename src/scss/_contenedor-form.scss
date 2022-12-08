@@ -1,0 +1,11 @@
+.contenedor-form{
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width:768px){
+    .main-miCuenta{
+        flex-direction: column;
+        align-items: center;
+    }
+}

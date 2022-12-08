@@ -14,11 +14,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" type="image/jpg" href="./assets/img/Favicon.jpeg"/>
+    <script src="https://kit.fontawesome.com/733fd6b27b.js" crossorigin="anonymous"></script>
   </head>      
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./assets/img/Logo fob.png" alt=""></a>
+          <a class="navbar-brand" href="#"><img src="./assets/img/Logo fob.png" alt="logo-FOB"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -35,20 +36,34 @@
           </div>
         </div>
       </nav>
-    <main>
-        <div class="categoria-pedidos">
-            <form>
-                <select class="categorias" name="talles">
-                  <option value="categorias">Categorías</option>
-                  <option value="relojeria">Relojería</option>
-                  <option value="electronica">Electrónica</option>
-                  <option value="audio">Audio</option>
-                  <option value="portarretra">Portarretratos</option>
-                </select>
-            </form>
+      <main class="main-nuevo-pedido">
+          <div class="categoria-pedidos">
+              <form>
+                <input type="search" placeholder="Qué buscás?">
+
+                  <select class="categorias" name="talles">
+                    <option value="categorias">Categorías</option>
+                    <option value="relojeria">Relojería</option>
+                    <option value="electronica">Electrónica</option>
+                    <option value="audio">Audio</option>
+                    <option value="portarretra">Portarretratos</option>
+                  </select>
+
+              </form>
+
+          </div>
+        <div class="banner-newpedido">
+          <h3>APROVECHÁ</h3>
+          <div class="banner-imagenes">
+            <img src="./assets/img/mallametal.jpg" alt="reloj malla metal" width="250">
+            <img src="./assets/img/mousegamer.jpg" alt="mouse gamer" width="250">
+            <img src="./assets/img/tecladogamer.jpg" alt="teclado gamer" width="250">
+          </div>
+          <h3>NUESTRAS MEJORES OFERTAS</h3>
         </div>
-        <div class="carrusel">
+      
     </main>
+
   </div><footer class="footer">
 
     <div><a href="#">Ayuda</a> </div>

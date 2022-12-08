@@ -1,0 +1,21 @@
+main{
+    margin:20px 40px 50px;
+    padding: 20px 0 70px;
+}
+.main-miCuenta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.main-nuevo-pedido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width:768px){
+   .mainPedidos{
+        flex-direction: column;
+        justify-content: center;
+    }
+}

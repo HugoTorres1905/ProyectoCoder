@@ -1,0 +1,28 @@
+.mensajeSuscripcion{
+    width: 300px;
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    border-radius: 8px;
+
+    
+   }
+.mensajeSuscripcion .text1-aside{
+    font-size: 20px;
+    color: rgb(6, 6, 137);
+}
+.mensajeSuscripcion .text2-aside{
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    color: white ;
+    -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+}
+.mensajeSuscripcion .text3-aside{
+    font-size: 20px;
+    color: rgb(6, 6, 137);
+}

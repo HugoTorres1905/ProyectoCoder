@@ -1,0 +1,17 @@
+.categoria-pedidos{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+   
+}
+.categoria-pedidos form{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+@media screen and (max-width:768px) {
+    .categoria-pedidos form{
+        flex-direction: column;
+    }
+    
+}
