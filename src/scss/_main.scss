@@ -6,16 +6,12 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    gap: 15px;
 }
+
 .main-nuevo-pedido{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-@media screen and (max-width:768px){
-   .mainPedidos{
-        flex-direction: column;
-        justify-content: center;
-    }
-}
+

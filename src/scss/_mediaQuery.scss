@@ -1,0 +1,15 @@
+@media (max-width:768px){
+    .main-miCuenta {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 15px;
+    }
+    .mainPedidos{
+        flex-direction: column;
+        justify-content: center;
+    }
+    table{
+        font-size: 14px;
+    }
+}

@@ -1,9 +1,11 @@
 @import "reset";
 @import "body";
 @import "contenedor-elementos";
+@import "banner-imagenes";
 @import "navbar";
 @import "images";
 @import "html";
+@import "main";
 @import "contenedor-form";
 @import "tablapedidos";
 @import "carrito";
@@ -15,13 +17,11 @@
 @import "paginacion";
 @import "mensajeSuscripcion";
 @import "mainPedidos";
-@import "main";
 @import "logo";
-@import "form-control";
 @import "footer";
 @import "contenedorDestacados";
 @import "categoria-pedidos";
 @import "botones";
 @import "titulos";
-@import "barra-busqueda";
-@import "banner-imagenes"
+@import "banner-imagenes";
+@import "mediaQuery"
